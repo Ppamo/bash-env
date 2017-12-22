@@ -1,2 +1,7 @@
-.netrc
 *.swp
+.bash_history
+.lesshst
+.viminfo
+.kube
+.minikube
+bin
