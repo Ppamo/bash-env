@@ -16,12 +16,12 @@ create_session(){
 	tmux rename-window -t "$SESSIONNAME:0" "REPO-CONTROLLER"
 	create_window_layout
 
-	# microservicios
-	tmux new-window -t "$SESSIONNAME" -a -n "MICROSERVICIOS"
+	# ibm
+	tmux new-window -t "$SESSIONNAME" -a -n "IBM"
 	create_window_layout
 
-	# kubernetes
-	tmux new-window -t "$SESSIONNAME" -a -n "KUBERNETES"
+	# golang
+	tmux new-window -t "$SESSIONNAME" -a -n "GOLANG"
 	create_window_layout
 }
 
