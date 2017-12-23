@@ -10,8 +10,8 @@ alias l='ls -plh'
 alias la='ls -plah'
 alias v='vim -p'
 
-alias we='cd /cygdrive/c/Ppamo/code/ms'
-alias ge='cd /cygdrive/d/Ppamo/Code/go'
+alias we='cd $HOME/ibm/ms'
+alias ge='cd $HOME/code/go'
 
 cd
 . $HOME/.tmux-session.sh
