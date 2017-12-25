@@ -1,3 +1,5 @@
 [user]
+	name = Ppamo
 	email = pablo@ppamo.cl
-	name = Pablo Mansilla Ojeda
+[color]
+	ui = auto
