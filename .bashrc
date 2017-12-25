@@ -1,6 +1,7 @@
 source "$HOME/.git-prompt.sh"
 export LANG="es_ES.UTF-8"
-export PATH=$PATH:$HOME/bin
+export GOPATH=/home/develop/go
+export PATH=$PATH:$HOME/bin:$GOPATH/bin
 
 PROMPT_DIRTRIM=4
 export PS1='\[\033[01;32m\]\h\[\033[01;34m\] \w\[\033[31m\]$(__git_ps1 " [%s]") \[\033[01;34m\]\r\n$ \[\033[00m\]'
