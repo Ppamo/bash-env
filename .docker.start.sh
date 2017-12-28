@@ -5,6 +5,7 @@ STATUS=$("$DOCKER_MACHINE" status)
 
 if [ ! "$STATUS" == "Running" ]
 then
+	echo "Loading docker..."
 	bash "/cygdrive/c/Archivos de programa/Docker Toolbox/start.sh" exit 0
 fi
 
