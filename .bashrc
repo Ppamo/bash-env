@@ -1,4 +1,5 @@
 source "$HOME/.git-prompt.sh"
+export GOPATH=/cygdrive/c/Users/Ppamo/go
 export LANG="es_ES.UTF-8"
 export PATH=$PATH:/usr/bin:$HOME/bin
 
